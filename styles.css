@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Rubik+Iso&display=swap');
+@import url('https://fontlibrary.org/face/dejavu-sans-mono');
+
 html {
     background: black;
     height: 100%;
@@ -141,7 +142,7 @@ position: relative;
     
   }
   .container #intro span.name{
-    font-size: 70px;
+    font-size: 50px;
     letter-spacing: 0.5rem;
     font-weight: bold;
   }
