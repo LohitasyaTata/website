@@ -4,7 +4,7 @@
 html {
     background: black;
     height: 100%;
-    font-family: 'Syne Mono';
+    font-family: monospace;
     overflow-x: hidden;
     /* overflow: hidden; */
 }
