@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Rubik+Iso&display=swap');
+html {
+    background: black;
+    height: 100%;
+    font-family: monospace;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;;
+
+}
+#Matrix{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+}
+
+#navbar{
+    position: relative;
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    /* padding: 30px 100px; */
+}
+#menu{
+    font-size: 22px;
+}
+
+#navbar h1{
+    position: relative;
+    left: 30px;
+    letter-spacing: 8px;
+}
+#navbar nav{
+right: 30px;
+position: relative;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+#navbar img{
+    position: relative;
+    height: 143px;
+    width: 144px;
+    left: 31px;
+}
+
+
+
+.container {
+  /* position: relative; */
+  /* height: 125vh; */
+  /* margin-left: 10vh;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  align-content: center;
+  justify-content: center; */
+
+
+  position: relative;
+  /* height: 125vh; */
+  /* margin-left: 10vh; */
+  /* align-content: center; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 95%;
+  align-items: center;
+  color: aliceblue;
+
+  }
+
+.container img{
+  position: relative;
+  height: 300px;
+  width: 600px;
+  filter: grayscale(70%);
+}
+.container img:hover{
+  /* position: relative;
+  height: 300px;
+  width: 600px; */
+  filter: grayscale(0%);
+}
+.container #typewriter {
+  position: relative;
+  font-size:-webkit-xxx-large;
+  /* padding: 0.5rem; */
+  /* font-weight: bold; */
+  /* letter-spacing: 0.1rem; */
+  /* text-align: center; */
+  overflow: hidden;
+  top: -51px;
+  }
+
+.text{
+  position: relative;
+  width: 53%;
+}
+.container #typewriter span.typed-text {
+    /* color: rgb(255, 255, 255);
+     */
+    /* background: -webkit-linear-gradient(#68ff5f, #00ff72); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* color: 	#ff4a78; */
+    background-color: black;
+    letter-spacing: 10px;
+    font-size: -webkit-xxx-large;
+    font-weight:bold;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+
+  }
+  
+.container #intro{
+    position: relative;
+  }
+
+  .container #intro{
+    font-size: x-large;
+    /* padding-bottom: 5vh; */
+    
+  }
+  .container #intro span.name{
+    font-size: 70px;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+  }
+  .container #intro span.intro2{
+    font-size: 25px;
+    letter-spacing: 0.5rem;
+    font-weight:600;
+  }
+  .container #about{
+    position: relative;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    top: -20px;
+    max-width: 850px;
+    font-size: x-large;
+    /* letter-spacing: 0.1rem; */
+    text-align: justify;
+  }
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 3px -3px 3px #c800ff, 6px 8px 3px #001eff, 0px 1px 0px #00ffe1, 0px 1px 0px #ff0000, 0 0 0px #000000, 0 0 0px #000000, -12px 11px 0px #000000;
+    }
+    to {
+      text-shadow: -5px 5px 5px #4704ff, -13px -10px 30px #0032ff, 0px 1px 40px #00ffd5, 0 0 0px #ff0000, 0 0 2px #ff0000, 0 0 0px #006c6b, 0 0 0px #ccc;
+    }
+  }
+
+
+
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .container p span.cursor.typing {
+    animation: none;
+  }
+
+
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
+  h2{
+    /* position: absolute; */
+    color: aliceblue;
+  margin-left: 10vh;
+
+}
+
+
+#scene{
+  /* position: relative; */
+  width:75vmin;
+  height:75vmin;
+  background-color: #00000075;
+}
+
+.animation{
+  margin-left: -10vh;
+  align-self: center;
+  /* display: flex;
+  position: absolute;
+  top: 26vh;
+  left: 183vh;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between; */
+
+}
+.typewritermotto h1 {
+  color: #fff;
+  /* font-family: monospace; */
+  overflow: hidden;
+  /* overflow: hidden; Ensures the content is not revealed until the animation */
+  border-right: .15em solid #000000; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /* margin: 0 auto;  Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ccc }
+}
+
+
+
